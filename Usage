@@ -1,0 +1,22 @@
+Each Azure lab should include:
+
+Business Requirement
+Architecture
+Resource Naming
+Deployment Commands
+Security Decisions
+Validation
+Cleanup Procedure
+Estimated Cost Considerations
+Lessons Learned
+
+Always include cleanup instructions for lab resources.
+
+Example:
+
+az group delete \
+  --name rg-linux-lab-dev \
+  --yes \
+  --no-wait
+
+This prevents unused lab resources from continuing to generate charges.
