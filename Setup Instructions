@@ -1,0 +1,35 @@
+Azure CLI Authentication
+az login
+
+List accounts:
+
+az account list --output table
+
+Show active subscription:
+
+az account show --output table
+Create Resource Group
+az group create \
+  --name rg-linux-lab-dev \
+  --location centralus
+
+Validate:
+
+az group show \
+  --name rg-linux-lab-dev \
+  --output table
+Create Virtual Network
+az network vnet create \
+  --resource-group rg-linux-lab-dev \
+  --name vnet-linux-lab \
+  --address-prefix 10.10.0.0/16 \
+  --subnet-name subnet-linux \
+  --subnet-prefix 10.10.1.0/24
+Create Network Security Group
+az network nsg create \
+  --resource-group rg-linux-lab-dev \
+  --name nsg-linux-lab
+Inspect Resources
+az resource list \
+  --resource-group rg-linux-lab-dev \
+  --output table
