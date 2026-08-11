@@ -1,0 +1,14 @@
+Successful Azure administration requires more than creating resources.
+
+Good cloud engineering considers:
+
+Identity
+Network boundaries
+Least privilege
+Naming
+Cost
+Monitoring
+Resilience
+Repeatability
+Documentation
+Cleanup
