@@ -1,0 +1,32 @@
+##AZ Command Not Recognized
+
+Symptom:
+
+az : The term 'az' is not recognized...
+
+Validate installation:
+
+az --version
+
+If unavailable, install Azure CLI and restart the terminal.
+
+Confirm PATH configuration.
+
+Then:
+
+az login
+
+
+##Wrong Subscription
+
+Check:
+
+az account list --output table
+
+Set subscription:
+
+az account set --subscription "SUBSCRIPTION-NAME"
+
+Confirm:
+
+az account show --output table
