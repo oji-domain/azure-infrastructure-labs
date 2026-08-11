@@ -1,0 +1,11 @@
+Cloud infrastructure becomes difficult to manage when resources are created without:
+
+Naming standards
+Resource-group strategy
+Network design
+Access controls
+Cost controls
+Documentation
+Repeatable deployment processes
+
+This repository documents structured Azure administration labs.
