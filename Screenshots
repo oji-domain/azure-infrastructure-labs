@@ -1,0 +1,20 @@
+Include:
+
+01-resource-group.png
+02-vnet.png
+03-subnet.png
+04-nsg.png
+05-linux-vm.png
+06-storage-account.png
+07-rbac.png
+08-entra-users-groups.png
+09-monitoring.png
+10-cleanup.png
+
+Blur/remove:
+
+Subscription IDs where unnecessary
+Tenant IDs where unnecessary
+Email addresses
+Public IPs when not needed
+Any credentials
